@@ -28,7 +28,7 @@ p {
 }
 
 .clearfix {
-    margin-top: -0.1%;
+    margin: 3px;
     border: 2px solid;
     border-radius: 27px;
     height: 299px;
