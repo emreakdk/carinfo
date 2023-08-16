@@ -1,0 +1,40 @@
+.card-mondeo {
+    margin-top: -23.3%;
+    margin-left: 16%;
+    border: white;
+
+}
+
+.card {
+    border: white;
+}
+
+.img {
+    border-radius: 10px;
+    height: 215px;
+    position: static;
+}
+
+.başlık-mondeo {
+    margin-top: 6.4%;
+}
+
+.card-talisman {
+    margin-top: -22.5%;
+    margin-left: 32%;
+    border: white;
+
+}
+
+.başlık-talisman {
+    margin-top: 6.4%;
+}
+
+.card-fiat {
+    margin-top: -22.5%;
+    margin-left: 48%;
+    border: white;
+}
+.başlık-fiat {
+    margin-top: 6.4%;
+}

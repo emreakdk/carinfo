@@ -1,111 +1,101 @@
 .img-vectra {
-    width: 350px;
-    height: 230px;
-    margin-right: 1%;
-    border-radius: 25px;
-    border: 2px solid;
-    margin-top: 40px;
+  width: 350px;
+  height: 230px;
+  margin-right: 1%;
+  border-radius: 25px;
+  border: 2px solid;
+  margin-top: 40px;
 
 }
 
 .img-mondeo {
-    position: static;
+  position: static;
 
-    width: 350px;
-    height: 230px;
-    margin-right: 1%;
-    border-radius: 25px;
-    border: 2px solid;
-    margin-top: 38px;
-    right: 0px;
+  width: 350px;
+  height: 230px;
+  margin-right: 1%;
+  border-radius: 25px;
+  border: 2px solid;
+  margin-top: 38px;
+  right: 0px;
 
 }
 
 
 p {
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .clearfix {
-    margin: 3px;
-    border: 2px solid;
-    border-radius: 27px;
-    height: 299px;
+  margin: 3px;
+  border: 2px solid;
+  border-radius: 27px;
+  height: 299px;
 }
 
 .logo-vectra {
-    display: inline;
-    justify-content: center;
-    margin-bottom: 16px;
-    margin-top: 25px;
-    margin-left: 40%;
-    margin-right: 16px;
-    -webkit-filter: blur(1px);
+  display: inline;
+  justify-content: center;
+  margin-bottom: 16px;
+  margin-top: 25px;
+  margin-left: 40%;
+  margin-right: 16px;
+  -webkit-filter: blur(1px);
 
 }
 
 .logo-mondeo {
-    display: inline;
-    justify-content: center;
-    margin-bottom: 16px;
-    margin-top: 80px;
-    margin-left: 37%;
-    margin-right: 16px;
-    -webkit-filter: blur(1px);
+  display: inline;
+  justify-content: center;
+  margin-bottom: 16px;
+  margin-top: 80px;
+  margin-left: 37%;
+  margin-right: 16px;
+  -webkit-filter: blur(1px);
 }
 
 
 
 .text-car {
-    margin-top: -13%;
-    margin-left: 1%;
+  margin-top: -13%;
+  margin-left: 1%;
 }
 
 .text-ford {
-    margin-top: -12%;
-    margin-left: 15px;
+  margin-top: -12%;
+  margin-left: 15px;
 }
 
 
 
 
 .text-renault {
-    margin-top: -13%;
-    margin-left: 1%;
+  margin-top: -13%;
+  margin-left: 1%;
 }
 
 .logo-renault {
-    margin-left: 41%;
-    margin-top: 1%;
-    -webkit-filter: blur(1px);
+  margin-left: 41%;
+  margin-top: 1%;
+  -webkit-filter: blur(1px);
 }
 
-
-
-.clearfix1 {
-    margin-top: 10.14%;
-    border: 2px solid;
-    border-radius: 27px;
-    height: 299px;
-    
-}
-
-.logo-fiat{
-    width: 350px;
-    height: 230px;
-    margin-top: 1%;
-    margin-left: 37%;
-    -webkit-filter: blur(1px);
+.logo-fiat {
+  width: 350px;
+  height: 230px;
+  margin-top: 1%;
+  margin-left: 37%;
+  -webkit-filter: blur(1px);
 
 }
 
-.text-fiat{
-    margin-top: -13%;
-    margin-left: 1%;
-   
+.text-fiat {
+  margin-top: -13%;
+  margin-left: 1%;
+
 }
 
-.navbar{
-    margin-bottom: 1%;
+.navbar {
+  margin-bottom: 1%;
 }
