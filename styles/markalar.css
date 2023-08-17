@@ -34,68 +34,26 @@ p {
   height: 299px;
 }
 
-.logo-vectra {
-  display: inline;
-  justify-content: center;
-  margin-bottom: 16px;
-  margin-top: 25px;
-  margin-left: 40%;
-  margin-right: 16px;
-  -webkit-filter: blur(1px);
-
-}
-
-.logo-mondeo {
-  display: inline;
-  justify-content: center;
-  margin-bottom: 16px;
-  margin-top: 80px;
-  margin-left: 37%;
-  margin-right: 16px;
-  -webkit-filter: blur(1px);
-}
-
-
-
-.text-car {
-  margin-top: -13%;
-  margin-left: 1%;
-}
-
-.text-ford {
-  margin-top: -12%;
-  margin-left: 15px;
-}
-
-
-
-
-.text-renault {
-  margin-top: -13%;
-  margin-left: 1%;
-}
-
-.logo-renault {
-  margin-left: 41%;
-  margin-top: 1%;
-  -webkit-filter: blur(1px);
-}
-
-.logo-fiat {
-  width: 350px;
-  height: 230px;
-  margin-top: 1%;
-  margin-left: 37%;
-  -webkit-filter: blur(1px);
-
-}
-
-.text-fiat {
-  margin-top: -13%;
-  margin-left: 1%;
-
-}
-
 .navbar {
   margin-bottom: 1%;
+}
+
+.logo{
+  width: 370px;
+  height: 200px;
+  margin-top: 1%;
+  margin-left: 37%;
+  -webkit-filter: blur(1px);
+}
+
+.text{
+  margin-top: -11%;
+  margin-left: 1%;
+}
+
+.link{
+  margin-left: -55.8%;
+  position: static;
+
+  
 }

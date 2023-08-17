@@ -1,12 +1,12 @@
 .card-mondeo {
     margin-top: -23.3%;
-    margin-left: 16%;
+    margin-left: 18.5%;
     border: white;
-
 }
 
 .card {
     border: white;
+    margin-left: 2.5%;
 }
 
 .img {
@@ -15,26 +15,37 @@
     position: static;
 }
 
-.başlık-mondeo {
-    margin-top: 6.4%;
-}
 
 .card-talisman {
     margin-top: -22.5%;
-    margin-left: 32%;
+    margin-left: 34.5%;
     border: white;
-
 }
 
-.başlık-talisman {
-    margin-top: 6.4%;
-}
 
 .card-fiat {
     margin-top: -22.5%;
-    margin-left: 48%;
+    margin-left: 50.5%;
     border: white;
 }
-.başlık-fiat {
+
+.card-nissan{
+    margin-top: -22.5%;
+    margin-left: 66.5%;
+    border: white;
+}
+
+
+.card-dacia{
+    margin-top: -22.5%;
+    margin-left: 82.5%;
+    border: white;
+}
+
+.başlık{
     margin-top: 6.4%;
+}
+
+.global-card{
+     
 }
