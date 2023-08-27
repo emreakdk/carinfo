@@ -81,21 +81,22 @@ p {
   .img{
     width: 200px;
     height: 140px;
-    margin-left: 59%;
+    margin-left: 47%;
+    margin-top: 30%;
   }
   .text{
     
-    margin-top: -42%;
+    margin-top: -72%;
   }
   .text-opel{
-    margin-top: -42%;
+    margin-top: -72%;
   }
   .link{
     position: relative;
-    top: -50px;
+    top: -170px;
   }
   .link-opel{
     position: relative;
-    top: -46px;
+    top: -170px;
   }
 }
