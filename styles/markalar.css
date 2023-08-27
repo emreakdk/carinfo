@@ -1,6 +1,6 @@
 .img {
-  width: 250px;
-  height: 130px;
+  width: 350px;
+  height: 230px;
   margin-right: 1%;
   border-radius: 25px;
   margin-top: 32px;
@@ -75,4 +75,27 @@ p {
   margin-left: 2%;
 
 
+}
+
+@media only screen and (max-width: 768px) {
+  .img{
+    width: 200px;
+    height: 140px;
+    margin-left: 59%;
+  }
+  .text{
+    
+    margin-top: -42%;
+  }
+  .text-opel{
+    margin-top: -42%;
+  }
+  .link{
+    position: relative;
+    top: -50px;
+  }
+  .link-opel{
+    position: relative;
+    top: -46px;
+  }
 }
