@@ -16,13 +16,21 @@ p {
 
 }
 
+.card-global{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 .clearfix {
   margin: 20px;
   border: 2px solid white;
   border-radius: 27px;
   height: 299px;
-  margin-right: 50%;
+  width: 50%;
   background-color: transparent;
+  display: ;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar {
@@ -38,14 +46,14 @@ p {
 }
 
 .text {
-  color: white;
+  color: black;
   margin-top: -1.9%;
   margin-left: 2%;
 
 }
 
 .text-opel {
-  color: white;
+  color: black;
   margin-top: -2%;
   margin-left: 2%;
 
