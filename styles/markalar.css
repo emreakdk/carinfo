@@ -27,8 +27,8 @@ p {
   border: 2px solid white;
   border-radius: 27px;
   height: 299px;
-  width: 50%;
-  max-width: 50%;
+  width: 100%;
+  max-width: 700px;
   background-color: transparent;
   display: ;
   background-color: rgba(255, 255, 255, 0.5);
