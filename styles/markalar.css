@@ -28,6 +28,7 @@ p {
   border-radius: 27px;
   height: 299px;
   width: 50%;
+  max-width: 50%;
   background-color: transparent;
   display: ;
   background-color: rgba(255, 255, 255, 0.5);
