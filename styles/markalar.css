@@ -1,41 +1,28 @@
-.img-vectra {
+.img {
   width: 350px;
   height: 230px;
   margin-right: 1%;
   border-radius: 25px;
-  border: 2px solid;
-  margin-top: 40px;
+  margin-top: 32px;
 
 }
 
-.img-mondeo {
-  position: static;
-
-  width: 350px;
-  height: 230px;
-  margin-right: 1%;
-  border-radius: 25px;
-  border: 2px solid;
-  margin-top: 38px;
-  right: 0px;
-
-}
 
 
 p {
   font-size: large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position: ;
+  position: static;
 
 }
 
 .clearfix {
   margin: 20px;
-  border: 2px solid;
+  border: 2px solid white;
   border-radius: 27px;
   height: 299px;
   margin-right: 50%;
-  background-color: white;
+  background-color: transparent;
 }
 
 .navbar {
@@ -51,15 +38,32 @@ p {
 }
 
 .text {
-  margin-top: -23%;
+  color: white;
+  margin-top: -1.9%;
   margin-left: 2%;
+
+}
+
+.text-opel {
+  color: white;
+  margin-top: -2%;
+  margin-left: 2%;
+
 }
 
 .link {
   position: relative;
-  top: 40px;
-  margin-left: -52%;
-  margin-bottom: 20%;
+  top: 120px;
+  margin-left: 2%;
 
 
-} 
+
+}
+
+.link-opel {
+  position: relative;
+  top: 120px;
+  margin-left: 2%;
+
+
+}
