@@ -6,3 +6,16 @@ function fg_load() {
 }
 
 
+window.onscroll =  (e) => {
+    var scrollTop = window.pageYOffset;
+		console.log(scrollTop);
+		if( scrollTop > 50 ){			
+document.getElementById('button').style.visibility="visible";
+		}
+		else
+		{
+			document.getElementById('button').style.visibility="none";
+		}
+        console.log();
+}
+
