@@ -16,15 +16,15 @@ p {
 
 }
 
-.card-global{
+.card-global {
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
 .clearfix1 {
   margin: 20px;
-  border: 2px solid white;
   border-radius: 27px;
   height: 299px;
   width: 100%;
@@ -78,25 +78,30 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-  .img{
+  .img {
     width: 200px;
     height: 140px;
     margin-left: 47%;
     margin-top: 30%;
   }
-  .text{
-    
+
+  .text {
+
     margin-top: -70%;
   }
-  .text-opel{
+
+  .text-opel {
     margin-top: -70%;
   }
-  .link{
+
+  .link {
     position: relative;
     top: -165px;
   }
-  .link-opel{
+
+  .link-opel {
     position: relative;
     top: -165px;
   }
 }
+
