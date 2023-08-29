@@ -105,3 +105,7 @@ p {
   }
 }
 
+#button{
+  transition: bottom 0.2s ease;
+}
+
