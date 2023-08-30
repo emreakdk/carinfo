@@ -5,7 +5,7 @@ function fg_load() {
     document.getElementById('loading').style.display = 'none'
 }
 
-let mybutton = document.getElementById("button");
+let button = document.getElementById("button");
 
 window.onscroll = function() {scrollFunction()};
 
