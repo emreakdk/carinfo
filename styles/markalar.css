@@ -7,20 +7,10 @@
 
 }
 
-
-
-p {
-  font-size: large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position: static;
-
-}
-
 .card-global {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .clearfix1 {
@@ -48,33 +38,46 @@ p {
 
 .text {
   color: black;
-  margin-top: -1.9%;
-  margin-left: 2%;
-
+  margin-top: -13%;
+  margin-left: 10%;
 }
 
-.text-opel {
+.text-opel{
   color: black;
-  margin-top: -2%;
-  margin-left: 2%;
-
+  margin-top: -31%;
+  margin-left: 10%;
 }
 
 .link {
   position: relative;
-  top: 120px;
-  margin-left: 2%;
-
-
-
+  top: 50px;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  font-size: 17px;
 }
 
 .link-opel {
   position: relative;
   top: 120px;
-  margin-left: 2%;
+  margin-left: -1%;
+  font-size: 17px;
+}
 
-
+.btn{
+  margin-left: 75%;
+  margin-top: 4%;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.btn1{
+  position: relative;
+  top: 80px;
+  margin-left: 72%;
+  margin-top: 27%;
+  font-size: 25px;
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -85,27 +88,16 @@ p {
     margin-top: 30%;
   }
 
-  .text {
-
-    margin-top: -70%;
-  }
-
-  .text-opel {
-    margin-top: -70%;
-  }
-
+ 
   .link {
     position: relative;
     top: -165px;
   }
 
-  .link-opel {
-    position: relative;
-    top: -165px;
+
+
+  #button {
+    transition: bottom 0.2s ease;
   }
-}
 
-#button{
-  transition: bottom 0.2s ease;
-}
-
+ 

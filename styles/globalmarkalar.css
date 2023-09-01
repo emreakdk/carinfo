@@ -1,0 +1,110 @@
+.img {
+    width: 350px;
+    height: 230px;
+    margin-right: 1%;
+    border-radius: 25px;
+    margin-top: 32px;
+  
+  }
+  
+  
+  
+  p {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: static;
+  
+  }
+  
+  .card-global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .clearfix1 {
+    margin: 20px;
+    border-radius: 27px;
+    height: 299px;
+    width: 100%;
+    max-width: 700px;
+    background-color: transparent;
+    display: ;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar {
+    margin-bottom: 1%;
+  }
+  
+  .logo {
+    width: 180px;
+    height: 130px;
+    margin-top: 9%;
+    margin-left: 33%;
+    -webkit-filter: blur(1px);
+  }
+  
+  .text {
+    color: black;
+    margin-top: -1.9%;
+    margin-left: 2%;
+  
+  }
+  
+  .text-opel {
+    color: black;
+    margin-top: -2%;
+    margin-left: 2%;
+  
+  }
+  
+  .link {
+    position: relative;
+    top: 120px;
+    margin-left: 2%;
+  
+  
+  
+  }
+  
+  .link-opel {
+    position: relative;
+    top: 120px;
+    margin-left: 2%;
+  
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .img {
+      width: 200px;
+      height: 140px;
+      margin-left: 47%;
+      margin-top: 30%;
+    }
+  
+    .text {
+  
+      margin-top: -70%;
+    }
+  
+    .text-opel {
+      margin-top: -70%;
+    }
+  
+    .link {
+      position: relative;
+      top: -165px;
+    }
+  
+    .link-opel {
+      position: relative;
+      top: -165px;
+    }
+  }
+  
+  #button{
+    transition: bottom 0.2s ease;
+  }

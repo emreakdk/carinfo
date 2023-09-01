@@ -8,7 +8,7 @@
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="stylesheet" href="/styles/markalar.css">
+  <link rel="stylesheet" href="/styles/globalmarkalar.css">
   <link rel="stylesheet" href="/styles/genel.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -31,7 +31,7 @@
 
   <nav style="" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="https://www.youtube.com/watch?v=ZqZGerGc1Ho">carinfo.com</a>
+      <a class="navbar-brand" href="https://www.youtube.com/watch?v=ZqZGerGc1Ho">carinfo.com</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -75,64 +75,103 @@
   </nav>
   
   <div class="card-global">
-    <div id="opel" class="clearfix1">
-      <div class="text-opel">
-        <button type="button" class="btn1 btn btn-secondary" onclick="location.href='/Almanmarkalar.html';">Göz At!</button>
-        <span class="link-opel badge rounded-pill text-bg-info" onclick="location.href='https://tr.wikipedia.org/wiki/Opel';">Info</span>
-        <h1> Alman Markaları => </h1>
-      </div>
-    </div>
-
-    <div id="ford" class="clearfix1">
-      <button type="button" class="btn btn-secondary" onclick="location.href='/Amerikanmarkalar.html';">Göz At!</button>
-      <span class="link badge rounded-pill text-bg-info" onclick="location.href='https://tr.wikipedia.org/wiki/Ford_Otosan';">Info</span>
-      <div class="text">
+    <div id="opel" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Opel';">
+      <img src="/img/opelgif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
       
-        <h1>Amerikan Markaları =></h1>
+      <a class="link-opel" href="#">Daha fazla öğren!</a>
+      <div class="text-opel">
+        <h1>Opel</h1>
+        <p>Opel bir Alman markasıdır.</p>
       </div>
+
+    </div>
+    <div id="ford" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Ford_Otosan';">
+      <img src="/img/mondeogif.webp" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
+
+      <a class="link" href="#">Daha fazla öğren!</a>
+      <div class="text">
+        <h1>Ford</h1>
+        <p>Ford bir Amerikan markasıdır.</p>
+      </div>
+
     </div>
 
-    <div id="renault" class="clearfix1">
-      <button type="button" class="btn btn-secondary" onclick="location.href='/Fransızmarkalar.html';">Göz At!</button>
-      <span class="link badge rounded-pill text-bg-info" onclick="location.href='https://tr.wikipedia.org/wiki/Renault';">Info</span>
+    <div id="renault" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Renault';">
+      <img src="/img/talismangif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
+
+      <a class="link" href="#">Daha fazla öğren!</a>
       <div class="text">
-        <h1>Fransız Markaları =></h1>
+        <h1>Renault</h1>
+        <p>Renault bir Fransız markasıdır.</p>
       </div>
     </div>
+    <div id="fiat" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Fiat';">
+      <img src="/img/egeagif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
 
-    <div id="fiat" class="clearfix1">
-      <button type="button" class="btn btn-secondary" onclick="location.href='/İtalyanmarkalar.html';">Göz At!</button>
-      <span class="link badge rounded-pill text-bg-info" onclick="location.href='https://tr.wikipedia.org/wiki/Nissan';">Info</span>
+      <a class="link" href="#">Daha fazla öğren!</a>
       <div class="text">
-        <h1>İtalyan Markaları =></h1>
+        <h1>Fiat</h1>
+        <p>Fiat bir İtalyan Markasıdır.</p>
       </div>
     </div>
   
 
-  <div id="nissan" class="clearfix1">
-    <button type="button" class="btn btn-secondary" onclick="location.href='/Japonmarkalar.html';">Göz At!</button>
-    <span class="link badge rounded-pill text-bg-info" onclick="location.href='https://tr.wikipedia.org/wiki/Nissan';">Info</span>
+  <div id="nissan" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Nissan';">
+    <img src="/img/qahsqai gif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
+
+    <a class="link" href="#">Daha fazla öğren!</a>
     <div class="text">
-      <h1>Japon Markaları =></h1>
+      <h1>Nissan</h1>
+      <p>Nissan bir Japon Markasıdır.</p>
     </div>
   </div>
 
-  <div id="dacia" class="clearfix1">
-    <button type="button" class="btn btn-secondary" onclick="location.href='/Romanyamarkalar.html';">Göz At!</button>
-    <span class="link badge rounded-pill text-bg-info" onclick="location.href='https://tr.wikipedia.org/wiki/Nissan';">Info</span>
+  <div id="dacia" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Nissan';">
+    <img src="/img/daciagif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
+
+    <a class="link" href="#">Daha fazla öğren!</a>
     <div class="text">
-      <h1>Romanya Markaları =></h1>
+      <h1>Dacia</h1>
+      <p>Dacia bir Romanya Markasıdır.</p>
     </div>
   </div>
-  
-  <div id="bmw" class="clearfix1">
-    <button type="button" class="btn btn-secondary" onclick="location.href='/İsveçmarkalar.html';">Göz At!</button>
-    <span class="link badge rounded-pill text-bg-info" onclick="location.href='https://tr.wikipedia.org/wiki/BMW';">Info</span>
+  <div id="mercedes" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Mercedes-Benz';">
+    <img src="/img/mercedesgif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
+
+    <a class="link" href="#">Daha fazla öğren!</a>
     <div class="text">
-      <h1>İsveç Markaları =></h1>
+      <h1>Mercedes</h1>
+      <p>Mercedes bir Alman Markasıdır.</p>
     </div>
   </div>
- 
+  <div id="bmw" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/BMW';">
+    <img src="/img/bmwgif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
+
+    <a class="link" href="#">Daha fazla öğren!</a>
+    <div class="text">
+      <h1>Bmw</h1>
+      <p>Bmw bir Alman Markasıdır.</p>
+    </div>
+  </div>
+  <div id="volvo" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Volvo';">
+    <img src="/img/volvogif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
+
+    <a class="link" href="#">Daha fazla öğren!</a>
+    <div class="text">
+      <h1>Volvo</h1>
+      <p>Volvo bir isveç Markasıdır.</p>
+    </div>
+  </div>
+  <div id="volswagen" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Volkswagen';">
+    <img src="/img/passatgif.webp" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
+
+    <a class="link" href="#">Daha fazla öğren!</a>
+    <div class="text">
+      <h1>Volswagen</h1>
+      <p>Volswagen bir Alman Markasıdır.</p>
+    </div>
+  </div>
+  </div>
 </div>
   <script> src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
 
