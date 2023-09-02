@@ -22,8 +22,10 @@
 </head>
 
 <body>
-   
-  <i onclick="topFunction()" id="button" style=" right: 64px; bottom: -100px; font-size: 35px; position: fixed; color: white;" class="fa-solid fa-arrow-up"></i>
+
+  <i onclick="topFunction()" id="button"
+    style=" right: 64px; bottom: -100px; font-size: 35px; position: fixed; color: white;"
+    class="fa-solid fa-arrow-up"></i>
 
   <div id="loading">
     <img src="/loader/Pulse-1.1s-144px.gif" alt="Yükleniyor..." />
@@ -42,7 +44,7 @@
             <a class="nav-link" aria-current="page" href="/index.html">Ana Sayfa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/markalar.html">Markalar</a>
+            <a class="nav-link" href="/markalar.html">Markalar</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/modeller.html">Modeller</a>
@@ -52,127 +54,38 @@
     </div>
   </nav>
 
-  <nav style="margin-top: -1%; height: 40px;" id="navbar-example2 nav" class="navbar bg-body-tertiary px-3 mb-3" data-bs-theme="dark">
-    
+  <nav style="margin-top: -1%; height: 40px;" id="navbar-example2 nav" class="navbar bg-body-tertiary px-3 mb-3"
+    data-bs-theme="dark">
+
     <ul class="nav nav-pills">
-      
-      <li style="margin-left: -25%; margin-top: -30%;"  class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Seç</a>
+
+      <li style="margin-left: -25%; margin-top: -30%;" class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+          aria-expanded="false">Seç</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#opel">Opel</a></li>
-          <li><a class="dropdown-item" href="#ford">Ford</a></li>
-          <li><a class="dropdown-item" href="#renault">Renault</a></li>
-          <li><a class="dropdown-item" href="#fiat">Fiat</a></li>
           <li><a class="dropdown-item" href="#nissan">Nissan</a></li>
-          <li><a class="dropdown-item" href="#dacia">Dacia</a></li>
-          <li><a class="dropdown-item" href="#mercedes">Mercedes</a></li>
-          <li><a class="dropdown-item" href="#bmw">Bmw</a></li>
-          <li><a class="dropdown-item" href="#volvo">Volvo</a></li>
-          <li><a class="dropdown-item" href="#volswagen">Volswagen</a></li>
         </ul>
       </li>
     </ul>
   </nav>
-  
+
+  <i class="fa-solid fa-left-long" style="position: relative; left: 550px; top: 2px; font-size: 45px;" onclick="location.href='/markalar.html';"></i>
+
+  <h1 style="color: black; display: inline; margin-left: 39%; margin-bottom: 2%;" >Japon Markaları</h1>
+
   <div class="card-global">
-    <div id="opel" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Opel';">
-      <img src="/img/opelgif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
-      
-      <a class="link-opel" href="#">Daha fazla öğren!</a>
-      <div class="text-opel">
-        <h1>Opel</h1>
-        <p>Opel bir Alman markasıdır.</p>
-      </div>
 
-    </div>
-    <div id="ford" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Ford_Otosan';">
-      <img src="/img/mondeogif.webp" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
+    <div id="nissan" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Nissan';">
+      <img src="/img/qahsqai gif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
 
       <a class="link" href="#">Daha fazla öğren!</a>
       <div class="text">
-        <h1>Ford</h1>
-        <p>Ford bir Amerikan markasıdır.</p>
-      </div>
-
-    </div>
-
-    <div id="renault" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Renault';">
-      <img src="/img/talismangif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
-
-      <a class="link" href="#">Daha fazla öğren!</a>
-      <div class="text">
-        <h1>Renault</h1>
-        <p>Renault bir Fransız markasıdır.</p>
+        <h1>Nissan</h1>
+        <p>Nissan bir Japon Markasıdır.</p>
       </div>
     </div>
-    <div id="fiat" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Fiat';">
-      <img src="/img/egeagif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
-
-      <a class="link" href="#">Daha fazla öğren!</a>
-      <div class="text">
-        <h1>Fiat</h1>
-        <p>Fiat bir İtalyan Markasıdır.</p>
-      </div>
-    </div>
+  </div>
   
-
-  <div id="nissan" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Nissan';">
-    <img src="/img/qahsqai gif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
-
-    <a class="link" href="#">Daha fazla öğren!</a>
-    <div class="text">
-      <h1>Nissan</h1>
-      <p>Nissan bir Japon Markasıdır.</p>
-    </div>
-  </div>
-
-  <div id="dacia" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Nissan';">
-    <img src="/img/daciagif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
-
-    <a class="link" href="#">Daha fazla öğren!</a>
-    <div class="text">
-      <h1>Dacia</h1>
-      <p>Dacia bir Romanya Markasıdır.</p>
-    </div>
-  </div>
-  <div id="mercedes" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Mercedes-Benz';">
-    <img src="/img/mercedesgif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
-
-    <a class="link" href="#">Daha fazla öğren!</a>
-    <div class="text">
-      <h1>Mercedes</h1>
-      <p>Mercedes bir Alman Markasıdır.</p>
-    </div>
-  </div>
-  <div id="bmw" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/BMW';">
-    <img src="/img/bmwgif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
-
-    <a class="link" href="#">Daha fazla öğren!</a>
-    <div class="text">
-      <h1>Bmw</h1>
-      <p>Bmw bir Alman Markasıdır.</p>
-    </div>
-  </div>
-  <div id="volvo" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Volvo';">
-    <img src="/img/volvogif.gif" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
-
-    <a class="link" href="#">Daha fazla öğren!</a>
-    <div class="text">
-      <h1>Volvo</h1>
-      <p>Volvo bir isveç Markasıdır.</p>
-    </div>
-  </div>
-  <div id="volswagen" class="clearfix1" onclick="location.href='https://tr.wikipedia.org/wiki/Volkswagen';">
-    <img src="/img/passatgif.webp" class="col-md-6 float-md-end mb-3 ms-md-3 img" alt="">
-
-    <a class="link" href="#">Daha fazla öğren!</a>
-    <div class="text">
-      <h1>Volswagen</h1>
-      <p>Volswagen bir Alman Markasıdır.</p>
-    </div>
-  </div>
-  </div>
-</div>
   <script> src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
 
   </script>

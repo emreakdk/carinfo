@@ -38,44 +38,44 @@
 
 .text {
   color: black;
-  margin-top: -13%;
+  margin-top: -16%;
   margin-left: 10%;
 }
 
 .text-opel{
   color: black;
-  margin-top: -31%;
+  margin-top: -25%;
   margin-left: 10%;
 }
 
 .link {
   position: relative;
   top: 50px;
-  margin-left: 10%;
+  margin-left: 12%;
   margin-bottom: 2%;
   font-size: 17px;
 }
 
 .link-opel {
   position: relative;
-  top: 120px;
-  margin-left: -1%;
+  top: 250px;
+  margin-left: -88%;
   font-size: 17px;
 }
 
-.btn{
+.btn1{
   margin-left: 75%;
-  margin-top: 4%;
+  margin-top: 6%;
   font-size: 25px;
   display: flex;
   flex-direction: column;
   
 }
-.btn1{
+.btn2{
   position: relative;
-  top: 80px;
+  top: 65px;
   margin-left: 72%;
-  margin-top: 27%;
+  margin-top: 24%;
   font-size: 25px;
   
 }
@@ -87,14 +87,6 @@
     margin-left: 47%;
     margin-top: 30%;
   }
-
- 
-  .link {
-    position: relative;
-    top: -165px;
-  }
-
-
 
   #button {
     transition: bottom 0.2s ease;

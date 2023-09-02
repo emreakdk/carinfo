@@ -85,26 +85,7 @@
       margin-top: 30%;
     }
   
-    .text {
-  
-      margin-top: -70%;
-    }
-  
-    .text-opel {
-      margin-top: -70%;
-    }
-  
-    .link {
-      position: relative;
-      top: -165px;
-    }
-  
-    .link-opel {
-      position: relative;
-      top: -165px;
-    }
-  }
-  
   #button{
     transition: bottom 0.2s ease;
   }
+
